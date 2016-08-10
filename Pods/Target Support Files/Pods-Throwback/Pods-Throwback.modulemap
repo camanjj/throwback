@@ -1,0 +1,6 @@
+framework module Pods_Throwback {
+  umbrella header "Pods-Throwback-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,83 @@
+PODS:
+  - Alamofire (3.4.0)
+  - HDAugmentedReality (1.0.1)
+  - JAMSVGImage (1.6.1)
+  - Kingfisher (2.4.1)
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - Realm (1.0.0):
+    - Realm/Headers (= 1.0.0)
+  - Realm/Headers (1.0.0)
+  - RealmSwift (1.0.0):
+    - Realm (= 1.0.0)
+  - Spring (1.0.3)
+  - SwiftyJSON (2.3.2)
+  - URBMediaFocusViewController (0.9.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - HDAugmentedReality (from `https://github.com/DanijelHuis/HDAugmentedReality.git`)
+  - JAMSVGImage (~> 1.6)
+  - Kingfisher (~> 2.4)
+  - MRProgress
+  - RealmSwift
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - SwiftyJSON
+  - URBMediaFocusViewController
+
+EXTERNAL SOURCES:
+  HDAugmentedReality:
+    :git: https://github.com/DanijelHuis/HDAugmentedReality.git
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  HDAugmentedReality:
+    :commit: 06fc2093160284e3a7b6c3c6585547dc6214340c
+    :git: https://github.com/DanijelHuis/HDAugmentedReality.git
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  HDAugmentedReality: aa514e9cebb52e16c8d29170830f098a094fd2b7
+  JAMSVGImage: 7aa966a310ddf5f53de295d5ce5b930df8ff1eb2
+  Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  Realm: e15cd8e7c11d3e576f628ba0b7cb855269b4991c
+  RealmSwift: 3229306d020d96f83b335f87a0dcbf2cef0e6a2b
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  URBMediaFocusViewController: 26779e301fe75ec0152fbe8b476bd06ccee9f9b3
+
+PODFILE CHECKSUM: cd682eb5eceae1fab53d029d0ee48c51a57f25be
+
+COCOAPODS: 1.0.1

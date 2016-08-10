@@ -1,0 +1,6 @@
+framework module JAMSVGImage {
+  umbrella header "JAMSVGImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

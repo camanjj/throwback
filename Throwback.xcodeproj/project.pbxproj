@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D552A97D64BBA16DA9CB27B /* Pods_Throwback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AF0BEA4EBD919A675B43DD /* Pods_Throwback.framework */; };
+		AD32BECE1D577C5D006E34BF /* HFAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32BECD1D577C5D006E34BF /* HFAnnotation.swift */; };
+		AD32BED01D5781F0006E34BF /* close.svg in Resources */ = {isa = PBXBuildFile; fileRef = AD32BECF1D5781F0006E34BF /* close.svg */; };
+		AD32BED21D598A0B006E34BF /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32BED11D598A0B006E34BF /* AnnotationView.swift */; };
+		AD32BED41D5998EA006E34BF /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32BED31D5998EA006E34BF /* Moment.swift */; };
 		AD55E19D1D56F88A008C870D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55E19C1D56F88A008C870D /* AppDelegate.swift */; };
 		AD55E19F1D56F88A008C870D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD55E19E1D56F88A008C870D /* ViewController.swift */; };
 		AD55E1A21D56F88A008C870D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD55E1A01D56F88A008C870D /* Main.storyboard */; };
 		AD55E1A41D56F88A008C870D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD55E1A31D56F88A008C870D /* Assets.xcassets */; };
 		AD55E1A71D56F88A008C870D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD55E1A51D56F88A008C870D /* LaunchScreen.storyboard */; };
+		AD8851031D570C3C006D84AB /* wrench.svg in Resources */ = {isa = PBXBuildFile; fileRef = AD8851021D570C3C006D84AB /* wrench.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02AF0BEA4EBD919A675B43DD /* Pods_Throwback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Throwback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D34BECC8E78393AF0963EF /* Pods-Throwback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Throwback.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Throwback/Pods-Throwback.debug.xcconfig"; sourceTree = "<group>"; };
+		AD32BECD1D577C5D006E34BF /* HFAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFAnnotation.swift; sourceTree = "<group>"; };
+		AD32BECF1D5781F0006E34BF /* close.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = close.svg; path = ../../../Downloads/close.svg; sourceTree = "<group>"; };
+		AD32BED11D598A0B006E34BF /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		AD32BED31D5998EA006E34BF /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
 		AD55E1991D56F88A008C870D /* Throwback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Throwback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD55E19C1D56F88A008C870D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD55E19E1D56F88A008C870D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		AD55E1A31D56F88A008C870D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD55E1A61D56F88A008C870D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD55E1A81D56F88A008C870D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8851021D570C3C006D84AB /* wrench.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = wrench.svg; path = ../../../Downloads/wrench.svg; sourceTree = "<group>"; };
+		B575D5E3382F5F9356031487 /* Pods-Throwback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Throwback.release.xcconfig"; path = "Pods/Target Support Files/Pods-Throwback/Pods-Throwback.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D552A97D64BBA16DA9CB27B /* Pods_Throwback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				AD55E19B1D56F88A008C870D /* Throwback */,
 				AD55E19A1D56F88A008C870D /* Products */,
+				BB56B2432858855902866C05 /* Pods */,
+				C9E5F5F5106B076F843D2C93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,36 @@
 		AD55E19B1D56F88A008C870D /* Throwback */ = {
 			isa = PBXGroup;
 			children = (
+				AD32BECF1D5781F0006E34BF /* close.svg */,
+				AD8851021D570C3C006D84AB /* wrench.svg */,
+				AD32BECD1D577C5D006E34BF /* HFAnnotation.swift */,
 				AD55E19C1D56F88A008C870D /* AppDelegate.swift */,
 				AD55E19E1D56F88A008C870D /* ViewController.swift */,
 				AD55E1A01D56F88A008C870D /* Main.storyboard */,
 				AD55E1A31D56F88A008C870D /* Assets.xcassets */,
 				AD55E1A51D56F88A008C870D /* LaunchScreen.storyboard */,
 				AD55E1A81D56F88A008C870D /* Info.plist */,
+				AD32BED11D598A0B006E34BF /* AnnotationView.swift */,
+				AD32BED31D5998EA006E34BF /* Moment.swift */,
 			);
 			path = Throwback;
+			sourceTree = "<group>";
+		};
+		BB56B2432858855902866C05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36D34BECC8E78393AF0963EF /* Pods-Throwback.debug.xcconfig */,
+				B575D5E3382F5F9356031487 /* Pods-Throwback.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9E5F5F5106B076F843D2C93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02AF0BEA4EBD919A675B43DD /* Pods_Throwback.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD55E1AB1D56F88A008C870D /* Build configuration list for PBXNativeTarget "Throwback" */;
 			buildPhases = (
+				298F6E4D97A6BA892329FABB /* [CP] Check Pods Manifest.lock */,
 				AD55E1951D56F88A008C870D /* Sources */,
 				AD55E1961D56F88A008C870D /* Frameworks */,
 				AD55E1971D56F88A008C870D /* Resources */,
+				F688EAE3FDAB4BA596F8D99C /* [CP] Embed Pods Frameworks */,
+				0CD547075CB30C7251FB4B19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,17 +166,70 @@
 			files = (
 				AD55E1A71D56F88A008C870D /* LaunchScreen.storyboard in Resources */,
 				AD55E1A41D56F88A008C870D /* Assets.xcassets in Resources */,
+				AD32BED01D5781F0006E34BF /* close.svg in Resources */,
 				AD55E1A21D56F88A008C870D /* Main.storyboard in Resources */,
+				AD8851031D570C3C006D84AB /* wrench.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD547075CB30C7251FB4B19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Throwback/Pods-Throwback-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		298F6E4D97A6BA892329FABB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F688EAE3FDAB4BA596F8D99C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Throwback/Pods-Throwback-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD55E1951D56F88A008C870D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD32BED41D5998EA006E34BF /* Moment.swift in Sources */,
+				AD32BECE1D577C5D006E34BF /* HFAnnotation.swift in Sources */,
+				AD32BED21D598A0B006E34BF /* AnnotationView.swift in Sources */,
 				AD55E19F1D56F88A008C870D /* ViewController.swift in Sources */,
 				AD55E19D1D56F88A008C870D /* AppDelegate.swift in Sources */,
 			);
@@ -249,6 +344,7 @@
 		};
 		AD55E1AC1D56F88A008C870D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D34BECC8E78393AF0963EF /* Pods-Throwback.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Throwback/Info.plist;
@@ -260,6 +356,7 @@
 		};
 		AD55E1AD1D56F88A008C870D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B575D5E3382F5F9356031487 /* Pods-Throwback.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Throwback/Info.plist;
@@ -288,6 +385,7 @@
 				AD55E1AD1D56F88A008C870D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
