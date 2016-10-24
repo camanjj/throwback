@@ -54,7 +54,7 @@ class ViewController: ARViewController, ARDataSource, CLLocationManagerDelegate 
     locManager.requestWhenInUseAuthorization()
     if CLLocationManager.locationServicesEnabled() {
       locManager.delegate = self
-      locManager.distanceFilter = 1
+      locManager.distanceFilter = 5
       locManager.desiredAccuracy = kCLLocationAccuracyBest
       locManager.startUpdatingLocation()
     }
@@ -79,7 +79,7 @@ class ViewController: ARViewController, ARDataSource, CLLocationManagerDelegate 
     
     // check if we have a cached location, if yes then fetch locations, else wait for location update
     let userDefaults = NSUserDefaults.standardUserDefaults()
-    if let _ = userDefaults.objectForKey("lat"), _ = userDefaults.objectForKey("lng") {
+    if let _ = userDefaults.objectForKey("lat"), let _ = userDefaults.objectForKey("lng") {
       
       let lat = userDefaults.doubleForKey("lat")
       let lng = userDefaults.doubleForKey("lng")
@@ -90,6 +90,8 @@ class ViewController: ARViewController, ARDataSource, CLLocationManagerDelegate 
     }
     
 //    setAnnotations(getDummyAnnotations(centerLatitude: 39.1321013, centerLongitude: -77.1911528, delta: 0.05, count: 10))
+    
+    MRProgressOverlayView.showOverlayAddedTo(view, animated: true)
 
     
   }
@@ -113,6 +115,8 @@ class ViewController: ARViewController, ARDataSource, CLLocationManagerDelegate 
 
   
   func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    
+    MRProgressOverlayView.dismissOverlayForView(view, animated: true)
     
     let recent = locations.last
     
